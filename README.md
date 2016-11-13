@@ -41,3 +41,7 @@ Jest Tests
 
 # Links
 [Painless JavaScript Testing](https://facebook.github.io/jest/)
+
+[Using Jest with Enzyme](https://github.com/airbnb/enzyme/blob/master/docs/guides/jest.md)
+
+[Shallow Rendering API](https://github.com/airbnb/enzyme/blob/master/docs/api/shallow.md)
