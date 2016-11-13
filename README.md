@@ -1,6 +1,12 @@
 # jest-Tests
 Jest Tests
 
+## Setup
+`make setup`
+
+## Run Tests
+`make test`
+
 ## Turbocharged
 
 ## Fast and Sandboxed
