@@ -7,8 +7,8 @@ setup:
 test:
 	npm test
 
-rn-test:
-	cd helloWorldNative; jest
+rn-test-update:
+	cd helloWorldNative; jest --watch --coverage --bail -o -u
 
 react-start:
 	cd hello-world; npm start

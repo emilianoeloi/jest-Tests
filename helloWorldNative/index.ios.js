@@ -9,24 +9,44 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableHighlight
 } from 'react-native';
 
+const AVAILABLE_PLATFORM = {
+  ANDROID: 'Android',
+  IOS: 'iOS',
+  WINDOWS: 'Windows',
+  UBUNTU: 'Ubuntu',
+};
+
 export default class helloWorldNative extends Component {
+
+  constructor() {
+    super();
+    this._changePlatform = this._changePlatform.bind(this);
+    this.state = {
+      currentPlatform: 'iOS'
+    }
+  }
+
+  _changePlatform(platformName) {
+    const p = platformName || AVAILABLE_PLATFORM.IOS
+    this.state = {
+      currentPlatform: platformName,
+    };
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
+      <TouchableHighlight
+        onPress={this._changePlatform}
+      >
+        <Text>
+          Click
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      </TouchableHighlight>
+
     );
   }
 }

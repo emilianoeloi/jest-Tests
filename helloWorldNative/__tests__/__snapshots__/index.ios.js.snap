@@ -1,0 +1,41 @@
+exports[`index iOS change Platform 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  onPress={[Function]}
+  underlayColor="black">
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Click
+  </Text>
+</TouchableHighlight>
+`;
+
+exports[`index iOS change Platform 2`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  onPress={[Function]}
+  underlayColor="black">
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Click
+  </Text>
+</TouchableHighlight>
+`;
+
+exports[`index iOS renders correctly 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  onPress={[Function]}
+  underlayColor="black">
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Click
+  </Text>
+</TouchableHighlight>
+`;
