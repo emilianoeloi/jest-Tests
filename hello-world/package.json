@@ -9,6 +9,7 @@
     "babel-preset-react": "^6.16.0",
     "enzyme": "^2.6.0",
     "jest": "^17.0.0",
+    "jest-css-modules": "^1.1.0",
     "react-addons-test-utils": "^15.3.2",
     "react-scripts": "0.7.0",
     "react-test-renderer": "^15.3.2"
@@ -20,7 +21,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/jest-css-modules"
   }
 }

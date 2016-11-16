@@ -4,7 +4,7 @@
   "description": "Jest Tests",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --coverage --bail -o -u"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
