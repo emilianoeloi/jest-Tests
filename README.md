@@ -4,8 +4,23 @@ Jest Tests
 ## Setup
 `make setup`
 
-## Run Tests
-`make test`
+## React scripts
+`make r-start
+
+`make r-test`
+
+`make r-test-update`  
+
+## React Native scripts
+`make rn-setup`
+
+`make rn-start`
+
+`make rn-test`
+
+`make rn-test-update`
+
+`make rn-ios`
 
 ## Turbocharged
 

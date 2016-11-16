@@ -19,6 +19,8 @@ r-test-update:
 	cd hello-world; jest --watch --coverage --bail -o -u
 
 ## React Native
+rn-setup:
+	cd hello-world; npm install
 rn-ios:
 	cd hello-world; react-native run-ios
 rn-test:
