@@ -7,5 +7,8 @@ setup:
 test:
 	npm test
 
+rn-test:
+	cd helloWorldNative; jest
+
 react-start:
-	cd hello-world; npm start	
+	cd hello-world; npm start
