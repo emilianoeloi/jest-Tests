@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1479042108082" clover="3.2.0">
-  <project timestamp="1479042108083" name="All files">
-    <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="2" coveredelements="2" complexity="0" loc="1" ncloc="1" packages="1" files="1" classes="1">
-      <file name="ShoppingList.js" path="/Users/emiliano/poc/jest-Tests/ShoppingList.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-      </file>
+<coverage generated="1479317041623" clover="3.2.0">
+  <project timestamp="1479317041623" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="128" coveredconditionals="74" methods="38" coveredmethods="38" elements="187" coveredelements="133" complexity="0" loc="21" ncloc="21" packages="2" files="6" classes="6">
+      <package name="jest-Tests">
+        <metrics statements="16" coveredstatements="16" conditionals="99" coveredconditionals="58" methods="29" coveredmethods="29"/>
+        <file name="CheckboxWithLabel.js" path="/Users/emiliano/poc/jest-Tests/CheckboxWithLabel.js">
+          <metrics statements="8" coveredstatements="8" conditionals="35" coveredconditionals="21" methods="11" coveredmethods="11"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+        </file>
+        <file name="ShoppingList.js" path="/Users/emiliano/poc/jest-Tests/ShoppingList.js">
+          <metrics statements="4" coveredstatements="4" conditionals="33" coveredconditionals="19" methods="10" coveredmethods="10"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="link.react.js" path="/Users/emiliano/poc/jest-Tests/link.react.js">
+          <metrics statements="3" coveredstatements="3" conditionals="31" coveredconditionals="18" methods="7" coveredmethods="7"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+        <file name="sum.js" path="/Users/emiliano/poc/jest-Tests/sum.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="jest-Tests.hello-world.src">
+        <metrics statements="5" coveredstatements="5" conditionals="29" coveredconditionals="16" methods="9" coveredmethods="9"/>
+        <file name="App.css" path="/Users/emiliano/poc/jest-Tests/hello-world/src/App.css">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="App.js" path="/Users/emiliano/poc/jest-Tests/hello-world/src/App.js">
+          <metrics statements="5" coveredstatements="5" conditionals="29" coveredconditionals="16" methods="9" coveredmethods="9"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+      </package>
     </metrics>
   </project>
 </coverage>

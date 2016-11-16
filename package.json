@@ -4,7 +4,7 @@
   "description": "Jest Tests",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --bail -o"
+    "test": "jest --watch --coverage --bail -o -u"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,14 @@
     "enzyme": "^2.6.0",
     "jes": "^0.6.1",
     "jest": "^17.0.0",
+    "jest-cli": "^17.0.2",
+    "jest-css-modules": "^1.1.0",
     "react": "^15.3.2",
     "react-addons-test-utils": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-test-renderer": "^15.3.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/jest-css-modules"
   }
 }

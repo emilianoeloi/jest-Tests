@@ -6,3 +6,6 @@ setup:
 
 test:
 	npm test
+
+react-start:
+	cd hello-world; npm start	

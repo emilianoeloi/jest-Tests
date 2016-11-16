@@ -1,10 +1,15 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 import App from '../App';
 
-it("Should have App Component", () => {
-  const app = shallow(
-    <App />
-  );
-  expect(app).notNull();
-});
+jest.mock('../logo.svg', () => 'logo');
+
+describe('App.js', () => {
+  it("Should have App Component", () => {
+    const testId = "ABC123";
+    const component = renderer.create(
+      <App />
+    );
+    expect(component).toMatchSnapshot();
+  });
+})
